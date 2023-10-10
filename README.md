@@ -1,4 +1,4 @@
-## Instagram Clone Database Analysis & Visualization
+## Instagram Clone Database Analysis
 
 ## Project Description:
 In this project, we analyze an Instagram clone's database to provide insights for marketing purposes and investor metrics. The database schema replicates a simplified version of a social media platform where users can post photos, comment on them, like them, follow other users, and tag photos.
@@ -10,8 +10,10 @@ In this project, we analyze an Instagram clone's database to provide insights fo
 2. **SQL Analysis**: Constructed SQL queries tailored to extract the required information for each task.
 
 ## Tech-Stack Used:
-**MySQL Workbench**: Used for database management and writing SQL queries.
+**MySQL Workbench**: 
+Used for database management and writing SQL queries.
 
+To view the below SQL codes, please download this document - [SQL Queries - Instagram Clone Analysis.docx](https://github.com/watsonkunnel/instagram_analysis/raw/main/SQL%20Queries%20-%20Instagram%20Clone%20Analysis.docx)
 
 ### A) Marketing Analysis:
 
