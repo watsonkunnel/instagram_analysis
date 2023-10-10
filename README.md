@@ -1,7 +1,7 @@
 ## Instagram Clone Database Analysis & Visualization
 
 ## Project Description:
-This project aims to derive actionable insights from an Instagram clone's database using SQL and visualize those insights using Tableau. We focus on marketing strategies and investor metrics, aiming to produce visual representations of user engagement, popular content, and platform growth patterns.
+In this project, we analyze an Instagram clone's database to provide insights for marketing purposes and investor metrics. The database schema replicates a simplified version of a social media platform where users can post photos, comment on them, like them, follow other users, and tag photos.
 
 ## Approach:
 1. **Data Exploration**: Analyzed the database schema to understand relationships between tables and their significance.
@@ -15,10 +15,15 @@ This project aims to derive actionable insights from an Instagram clone's databa
 ## Data Visualization in Tableau:
 
 ### 1. Loyal User Reward:
-Visualize the top 5 oldest users.
-- Connect to the `users` table.
-- In a new worksheet, place `username` on the Rows shelf and `created_at` on the Columns shelf.
-- Sort `created_at` in ascending order and limit the visualization to the top 5 results.
+
+**Objective**: Reward the most loyal users, i.e., those who have been using the platform for the longest time.
+
+SELECT username, created_at
+FROM users
+ORDER BY created_at ASC
+LIMIT 5;
+
+
 
 ### 2. Hashtag Research:
 Visualize the top 5 most commonly used hashtags.
